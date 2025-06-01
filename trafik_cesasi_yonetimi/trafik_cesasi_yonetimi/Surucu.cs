@@ -12,5 +12,13 @@ namespace trafik_cesasi_yonetimi
         public string Soyadi;
         public string TCNo;
         public string Telefon;
+
+        public Surucu(string adi, string soyadi, string tCNo, string telefon)
+        {
+            Adi = adi;
+            Soyadi = soyadi;
+            TCNo = tCNo;
+            Telefon = telefon;
+        }
     }
 }

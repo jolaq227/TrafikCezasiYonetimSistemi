@@ -9,3 +9,14 @@ D:\ntp\proje\trafik_cesasi_yonetimi\trafik_cesasi_yonetimi\obj\Debug\trafik_cesa
 D:\ntp\proje\trafik_cesasi_yonetimi\trafik_cesasi_yonetimi\obj\Debug\trafik_cesasi_yonetimi.csproj.CoreCompileInputs.cache
 D:\ntp\proje\trafik_cesasi_yonetimi\trafik_cesasi_yonetimi\obj\Debug\trafik_cesasi_yonetimi.exe
 D:\ntp\proje\trafik_cesasi_yonetimi\trafik_cesasi_yonetimi\obj\Debug\trafik_cesasi_yonetimi.pdb
+C:\Users\EMD\Desktop\ntp-project\TrafikCezasiYonetimSistemi\trafik_cesasi_yonetimi\trafik_cesasi_yonetimi\bin\Debug\trafik_cesasi_yonetimi.exe.config
+C:\Users\EMD\Desktop\ntp-project\TrafikCezasiYonetimSistemi\trafik_cesasi_yonetimi\trafik_cesasi_yonetimi\bin\Debug\trafik_cesasi_yonetimi.exe
+C:\Users\EMD\Desktop\ntp-project\TrafikCezasiYonetimSistemi\trafik_cesasi_yonetimi\trafik_cesasi_yonetimi\bin\Debug\trafik_cesasi_yonetimi.pdb
+C:\Users\EMD\Desktop\ntp-project\TrafikCezasiYonetimSistemi\trafik_cesasi_yonetimi\trafik_cesasi_yonetimi\obj\Debug\trafik_cesasi_yonetimi.csproj.AssemblyReference.cache
+C:\Users\EMD\Desktop\ntp-project\TrafikCezasiYonetimSistemi\trafik_cesasi_yonetimi\trafik_cesasi_yonetimi\obj\Debug\trafik_cesasi_yonetimi.Form1.resources
+C:\Users\EMD\Desktop\ntp-project\TrafikCezasiYonetimSistemi\trafik_cesasi_yonetimi\trafik_cesasi_yonetimi\obj\Debug\trafik_cesasi_yonetimi.Properties.Resources.resources
+C:\Users\EMD\Desktop\ntp-project\TrafikCezasiYonetimSistemi\trafik_cesasi_yonetimi\trafik_cesasi_yonetimi\obj\Debug\trafik_cesasi_yonetimi.csproj.GenerateResource.cache
+C:\Users\EMD\Desktop\ntp-project\TrafikCezasiYonetimSistemi\trafik_cesasi_yonetimi\trafik_cesasi_yonetimi\obj\Debug\trafik_cesasi_yonetimi.csproj.CoreCompileInputs.cache
+C:\Users\EMD\Desktop\ntp-project\TrafikCezasiYonetimSistemi\trafik_cesasi_yonetimi\trafik_cesasi_yonetimi\obj\Debug\trafik_cesasi_yonetimi.exe
+C:\Users\EMD\Desktop\ntp-project\TrafikCezasiYonetimSistemi\trafik_cesasi_yonetimi\trafik_cesasi_yonetimi\obj\Debug\trafik_cesasi_yonetimi.pdb
+C:\Users\EMD\Desktop\ntp-project\TrafikCezasiYonetimSistemi\trafik_cesasi_yonetimi\trafik_cesasi_yonetimi\obj\Debug\trafik_cesasi_yonetimi.exe.config
