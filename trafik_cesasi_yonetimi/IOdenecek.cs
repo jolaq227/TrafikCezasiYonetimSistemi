@@ -9,6 +9,6 @@ namespace trafik_cesasi_yonetimi
     public interface IOdenecek
     {
         void Ode();
-        int GetirBorc();
+        double GetirBorc();
     }
 }

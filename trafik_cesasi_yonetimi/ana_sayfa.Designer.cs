@@ -115,6 +115,8 @@
             this.Controls.Add(this.cezaEkle);
             this.Name = "ana_sayfa";
             this.Text = "Ana Sayfa";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.ana_sayfa_FormClosing);
+            this.Load += new System.EventHandler(this.ana_sayfa_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

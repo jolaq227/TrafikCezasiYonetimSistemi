@@ -13,7 +13,7 @@ namespace trafik_cesasi_yonetimi
         public int CezaId;
         public DateTime CezaTarihi;
         public Surucu SurucuId;
-        protected int CezaTutari;
+        protected double CezaTutari;
         public CezaDurumu Durumu;
         public string Plaka;
         public CezaTuru Turu;
@@ -23,7 +23,7 @@ namespace trafik_cesasi_yonetimi
             Durumu = CezaDurumu.Odenmedi;
         }
 
-        public int GetirBorc()
+        public double GetirBorc()
         {
             return CezaTutari;
         }
@@ -31,6 +31,11 @@ namespace trafik_cesasi_yonetimi
         public void Ode()
         {
             Durumu = CezaDurumu.Odendi;
+        }
+
+        public void setCezaTutari(double tutar)
+        {
+            CezaTutari = tutar;
         }
     }
 }
