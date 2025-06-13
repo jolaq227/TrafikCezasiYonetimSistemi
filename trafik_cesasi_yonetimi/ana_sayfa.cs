@@ -42,7 +42,7 @@ namespace trafik_cesasi_yonetimi
 
         private void tmCzaGrntle_Click(object sender, EventArgs e)
         {
-            tum_ceza_goruntule f2 = new tum_ceza_goruntule(cezaList, cezaList);
+            tum_ceza_goruntule f2 = new tum_ceza_goruntule(cezaList);
             f2.Show();
         }
 
@@ -56,7 +56,7 @@ namespace trafik_cesasi_yonetimi
             else
             {
                 double toplamTutar = cezaList
-                    .Where(c => c.Plaka != null && c.Plaka.Contains(plaka))
+                    .Where(c => c.Plaka != null && c.Plaka.Equals(plaka) && c.Durumu == CezaDurumu.Odenmedi)
                     .Sum(c => c.GetirBorc());
 
                 MessageBox.Show(plaka + " Plakalı Aracının Toplam Borcu : " + toplamTutar);
@@ -75,7 +75,7 @@ namespace trafik_cesasi_yonetimi
                 var filtrelenmisListe = cezaList
                     .Where(c => c.Plaka != null && c.Plaka.Equals(plaka))
                     .ToList();
-                tum_ceza_goruntule f2 = new tum_ceza_goruntule(filtrelenmisListe, cezaList);
+                tum_ceza_goruntule f2 = new tum_ceza_goruntule(filtrelenmisListe);
                 f2.Show();
             }
         }

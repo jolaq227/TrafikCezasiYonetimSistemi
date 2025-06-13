@@ -13,12 +13,10 @@ namespace trafik_cesasi_yonetimi
     public partial class tum_ceza_goruntule : Form
     {
         List<Ceza> cezaList;
-        List<Ceza> mainList;
-        public tum_ceza_goruntule(List<Ceza> l, List<Ceza> mainList)
+        public tum_ceza_goruntule(List<Ceza> l)
         {
             InitializeComponent();
             cezaList = l;
-            this.mainList = mainList;
         }
 
         private void tum_ceza_goruntule_Load(object sender, EventArgs e)
@@ -33,7 +31,6 @@ namespace trafik_cesasi_yonetimi
             dataGridView1.Columns[6].Name = "S.Soyadı";
             dataGridView1.Columns[7].Name = "S.Telefonu";
             dataGridView1.Columns[8].Name = "C.Tarihi";
-            //dataGridView1.Columns[9].Name = "Durumu";
 
             DataGridViewComboBoxColumn comboColumn = new DataGridViewComboBoxColumn();
             comboColumn.HeaderText = "Durumu";
@@ -67,11 +64,9 @@ namespace trafik_cesasi_yonetimi
             {
                 var column = dataGridView1.Columns[e.ColumnIndex];
 
-                // تأكد أن هذا هو عمود "Durumu"
                 if (column.HeaderText == "Durumu")
                 {
                     int selectedId = Convert.ToInt32(dataGridView1.Rows[e.RowIndex].Cells[0].Value);
-                    //MessageBox.Show(selectedCeza + "");
 
                     Ceza hedefCeza = cezaList.FirstOrDefault(c => c.CezaId == selectedId);
 
